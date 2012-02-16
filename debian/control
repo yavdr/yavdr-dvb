@@ -1,0 +1,12 @@
+Source: yavdr-dvb
+Section: base
+Priority: extra
+Maintainer: Marco Scholl <develop@marco-scholl.de>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.2
+Homepage: http://www.yavdr.org
+
+Package: yavdr-dvb
+Architecture: all
+Depends: ${misc:Depends} linux-media-dkms
+Description: yavdr-dvb meta package
