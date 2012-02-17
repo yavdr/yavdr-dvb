@@ -1,5 +1,5 @@
 Source: yavdr-dvb
-Section: base
+Section: kernel
 Priority: extra
 Maintainer: Marco Scholl <develop@marco-scholl.de>
 Build-Depends: debhelper (>= 8.0.0)
