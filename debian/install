@@ -1,1 +1,3 @@
 scripts/dvb-driver	usr/bin
+udev/*.rules		lib/udev/rules.d
+udev/helper/*		lib/udev
