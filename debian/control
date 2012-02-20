@@ -8,5 +8,5 @@ Homepage: http://www.yavdr.org
 
 Package: yavdr-dvb
 Architecture: all
-Depends: ${misc:Depends} linux-media-dkms
+Depends: ${misc:Depends}
 Description: yavdr-dvb meta package
