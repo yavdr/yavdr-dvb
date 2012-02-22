@@ -71,6 +71,8 @@ elif [ "$1" == "--list-all" ]; then
 
 elif [ "$1" == "--unload" ]; then
 
+  vdr-dbus-send /Plugins/dynamite plugin.SVDRPCommand string:'dtad' string:'force' &> /dev/null
+
   get_devices
   rm -f /tmp/.dvbdevicelist
   for (( i=0 ; i < ${#DEVICE[@]} ; i++ )) ; do
