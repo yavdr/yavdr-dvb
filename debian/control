@@ -8,5 +8,5 @@ Homepage: http://www.yavdr.org
 
 Package: yavdr-dvb
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, linux-firmware-yavdr
 Description: yavdr-dvb meta package
